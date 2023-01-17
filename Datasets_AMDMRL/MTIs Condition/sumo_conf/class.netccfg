@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <node-files value="class.nod.xml"/>
+        <edge-files value="class.edge.xml"/>
+        <connection-files value="class.con.xml"/>
+
+    </input>
+
+    <output>
+        <output-file value="class.net.xml"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+
+</configuration>

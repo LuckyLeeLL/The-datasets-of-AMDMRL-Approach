@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Mar 16 13:00:17 2021 by Eclipse SUMO duarouter Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="class.net.xml"/>
+        <additional-files value="type.add.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="trips.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="1800.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="O7-X6" to="X4-O3" via="T6-T3 T4-X3 T1-L2"/>
+    <trip id="1" depart="5.50" from="O7-X6" to="X0-O2" via="X5-X3 T3-T6 T3-T2"/>
+    <trip id="2" depart="11.00" from="O6-X6" to="X0-O2" via="X2-T0 X1-X2 T2-T3"/>
+    <trip id="3" depart="16.50" from="O8-X7" to="X5-O5" via="T4-X2 X1-X3 X7-X5"/>
+    <trip id="4" depart="22.00" from="O3-X4" to="X6-O6" via="X5-X3 X3-X5 X0-T5"/>
+    <trip id="5" depart="27.50" from="O5-X5" to="X5-O5" via="X4-T5 X5-X4 T1-X1"/>
+    <trip id="6" depart="33.00" from="O8-X7" to="X5-O5" via="T1-T0 X3-X5 T5-X4"/>
+    <trip id="7" depart="38.50" from="O5-X5" to="X4-O4" via="T3-T2 T4-X2 X3-X5"/>
+    <trip id="8" depart="44.00" from="O7-X6" to="X4-O3" via="T1-X1 T2-L1 X2-T4"/>
+    <trip id="9" depart="49.50" from="O3-X4" to="X6-O7" via="X2-T0 T4-T6 X2-T4"/>
+    <trip id="10" depart="55.00" from="O2-X0" to="X6-O6" via="T2-L1 T2-T3 X1-X2"/>
+    <trip id="11" depart="60.50" from="O3-X4" to="X6-O7" via="T4-T6 L2-T1 T3-X6"/>
+    <trip id="12" depart="66.00" from="O3-X4" to="X4-O4" via="T3-T6 X2-T0 T5-X4"/>
+    <trip id="13" depart="71.50" from="O8-X7" to="X4-O4" via="L1-T0 L2-X0 X0-L2"/>
+    <trip id="14" depart="77.00" from="O8-X7" to="X7-O8" via="T2-X2 T1-X1 T3-T2"/>
+    <trip id="15" depart="82.50" from="O3-X4" to="X0-O2" via="X7-T6 L2-X0 X5-X3"/>
+    <trip id="16" depart="88.00" from="O4-X4" to="X4-O4" via="T0-L1 X5-X7 X5-X4"/>
+    <trip id="17" depart="93.50" from="O3-X4" to="X6-O6" via="T1-X1 X4-X5 T0-X2"/>
+    <trip id="18" depart="99.00" from="O4-X4" to="X4-O3" via="X2-X1 T1-X1 X3-X1"/>
+    <trip id="19" depart="104.50" from="O6-X6" to="X6-O7" via="X7-X6 T1-L2 X7-X6"/>
+    <trip id="20" depart="110.00" from="O6-X6" to="X4-O3" via="X5-X3 X3-T5 T1-X1"/>
+    <trip id="21" depart="115.50" from="O8-X7" to="X6-O6" via="X1-X3 X6-X7 X1-T1"/>
+    <trip id="22" depart="121.00" from="O5-X5" to="X4-O4" via="X4-X5 T1-L2 L2-T1"/>
+    <trip id="23" depart="126.50" from="O3-X4" to="X4-O4" via="T4-T6 X1-X3 L2-X0"/>
+    <trip id="24" depart="132.00" from="O5-X5" to="X4-O4" via="T3-T2 T6-T4 X2-T2"/>
+    <trip id="25" depart="137.50" from="O6-X6" to="X6-O6" via="T0-L1 X0-X1 X2-T4"/>
+    <trip id="26" depart="143.00" from="O3-X4" to="X4-O4" via="X7-X6 X4-X5 X7-X5"/>
+    <trip id="27" depart="148.50" from="O8-X7" to="X5-O5" via="X0-T5 T0-L1 T3-T6"/>
+    <trip id="28" depart="154.00" from="O2-X0" to="X6-O7" via="T4-T6 T4-X3 X7-T6"/>
+    <trip id="29" depart="159.50" from="O5-X5" to="X6-O6" via="X3-X5 T5-X0 X1-X0"/>
+    <trip id="30" depart="165.00" from="O3-X4" to="X7-O8" via="X7-X5 L2-X0 T5-X4"/>
+    <trip id="31" depart="170.50" from="O8-X7" to="X4-O4" via="X1-X3 T0-X2 X2-X1"/>
+    <trip id="32" depart="176.00" from="O4-X4" to="X0-O2" via="T5-X0 T1-T0 T4-X2"/>
+    <trip id="33" depart="181.50" from="O5-X5" to="X5-O5" via="L2-X0 X2-T4 X7-X5"/>
+    <trip id="34" depart="187.00" from="O5-X5" to="X6-O7" via="X2-T2 T2-T3 T4-X3"/>
+    <trip id="35" depart="192.50" from="O5-X5" to="X7-O8" via="X5-X3 X4-T5 T2-T3"/>
+    <trip id="36" depart="198.00" from="O7-X6" to="X7-O8" via="L1-T0 T2-L1 T6-T4"/>
+    <trip id="37" depart="203.50" from="O4-X4" to="X1-X3" via="X2-T4 T0-X2 X1-T1"/>
+    <trip id="38" depart="209.00" from="O7-X6" to="X4-O3" via="X4-T5 X3-X5 T2-X2"/>
+    <trip id="39" depart="214.50" from="O6-X6" to="X7-O8" via="L1-T2 X5-X7 T1-T0"/>
+    <trip id="40" depart="220.00" from="O2-X0" to="X4-O4" via="T4-X3 T2-T3 T3-T6"/>
+    <trip id="41" depart="225.50" from="O8-X7" to="X4-O4" via="T2-X2 X3-T4 T3-X6"/>
+    <trip id="42" depart="231.00" from="O4-X4" to="X6-O7" via="T3-T2 T2-L1 T5-X0"/>
+    <trip id="43" depart="236.50" from="O2-X0" to="X5-O5" via="T3-X6 T5-X3 T0-X2"/>
+    <trip id="44" depart="242.00" from="O5-X5" to="X7-O8" via="X1-X0 T3-X6 T5-X0"/>
+    <trip id="45" depart="247.50" from="O4-X4" to="X5-O5" via="X3-T5 X2-X1 T6-X7"/>
+    <trip id="46" depart="253.00" from="O5-X5" to="X6-O7" via="T5-X3 X3-T4 T3-T6"/>
+    <trip id="47" depart="258.50" from="O5-X5" to="X7-O8" via="T6-T4 X4-X5 X3-T4"/>
+    <trip id="48" depart="264.00" from="O8-X7" to="X7-O8" via="T3-T6 T3-X6 X7-T6"/>
+    <trip id="49" depart="269.50" from="O6-X6" to="X7-O8" via="T1-X1 X7-X5 X6-X7"/>
+    <trip id="50" depart="275.00" from="O2-X0" to="X4-O3" via="L2-T1 T0-X2 X5-X3"/>
+    <trip id="51" depart="280.50" from="O8-X7" to="X5-O5" via="X1-X0 X0-L2 X2-T0"/>
+    <trip id="52" depart="286.00" from="O4-X4" to="X7-O8" via="X0-L2 X7-T6 X2-T0"/>
+    <trip id="53" depart="291.50" from="O3-X4" to="X6-O7" via="T5-X3 T6-T3 T1-L2"/>
+    <trip id="54" depart="297.00" from="O4-X4" to="X4-O3" via="X0-L2 X7-T6 X3-X5"/>
+    <trip id="55" depart="302.50" from="O8-X7" to="X6-O6" via="T1-T0 T0-X2 X3-T5"/>
+    <trip id="56" depart="308.00" from="O7-X6" to="X6-O7" via="T3-T6 L2-T1 T0-X2"/>
+    <trip id="57" depart="313.50" from="O7-X6" to="X5-O5" via="X3-X5 X2-T4 X3-T5"/>
+    <trip id="58" depart="319.00" from="O8-X7" to="X4-O4" via="T0-T1 T1-T0 X5-X3"/>
+    <trip id="59" depart="324.50" from="O8-X7" to="X6-O6" via="T1-L2 T4-X2 X6-T3"/>
+    <trip id="60" depart="330.00" from="O2-X0" to="X4-O4" via="L2-T1 T4-X3 T5-X4"/>
+    <trip id="61" depart="335.50" from="O7-X6" to="X5-O5" via="X3-X1 T0-T1 X7-X5"/>
+    <trip id="62" depart="341.00" from="O4-X4" to="X6-O7" via="T3-X6 T3-T6 L2-T1"/>
+    <trip id="63" depart="346.50" from="O4-X4" to="X0-O2" via="X4-T5 T2-X2 T2-X2"/>
+    <trip id="64" depart="352.00" from="O4-X4" to="X4-O4" via="T3-X6 T6-T4 T6-T3"/>
+    <trip id="65" depart="357.50" from="O4-X4" to="X4-O3" via="T4-X3 X2-T0 X1-T1"/>
+    <trip id="66" depart="363.00" from="O2-X0" to="X4-O4" via="T5-X0 T2-X2 X2-T0"/>
+    <trip id="67" depart="368.50" from="O4-X4" to="X6-O6" via="X1-X3 X2-T4 X1-X3"/>
+    <trip id="68" depart="374.00" from="O2-X0" to="X6-O7" via="T1-X1 X6-T3 T3-T6"/>
+    <trip id="69" depart="379.50" from="O7-X6" to="X5-O5" via="X6-T3 T2-X2 X1-X2"/>
+    <trip id="70" depart="385.00" from="O7-X6" to="X7-O8" via="X3-X1 T1-L2 T6-X7"/>
+    <trip id="71" depart="390.50" from="O3-X4" to="X4-O3" via="X4-X5 T5-X0 X6-X7"/>
+    <trip id="72" depart="396.00" from="O6-X6" to="X4-O3" via="T3-X6 T6-T4 X3-T4"/>
+    <trip id="73" depart="401.50" from="O8-X7" to="X0-O2" via="T3-T2 X5-X4 X2-X1"/>
+    <trip id="74" depart="407.00" from="O6-X6" to="X4-O4" via="T0-T1 X2-X1 X5-X4"/>
+    <trip id="75" depart="412.50" from="O8-X7" to="X4-O4" via="L2-X0 X4-T5 T6-X7"/>
+    <trip id="76" depart="418.00" from="O8-X7" to="X4-O3" via="L1-T0 X1-X2 T1-L2"/>
+    <trip id="77" depart="423.50" from="O2-X0" to="X6-O6" via="X2-T2 T5-X4 X2-T4"/>
+    <trip id="78" depart="429.00" from="O2-X0" to="X6-O6" via="X6-T3 T5-X0 X0-L2"/>
+    <trip id="79" depart="434.50" from="O5-X5" to="X6-O6" via="T5-X4 T2-X2 T5-X3"/>
+    <trip id="80" depart="440.00" from="O6-X6" to="X0-O2" via="X0-T5 X0-X1 X7-X5"/>
+    <trip id="81" depart="445.50" from="O3-X4" to="X6-O7" via="L1-T0 T1-L2 T1-T0"/>
+    <trip id="82" depart="451.00" from="O7-X6" to="X4-O3" via="X2-T2 X2-T4 X5-X4"/>
+    <trip id="83" depart="456.50" from="O4-X4" to="X6-O7" via="X6-T3 X3-X5 X2-T2"/>
+    <trip id="84" depart="462.00" from="O5-X5" to="X0-O2" via="L2-T1 X3-X1 T0-L1"/>
+    <trip id="85" depart="467.50" from="O5-X5" to="X4-O4" via="X3-T4 X5-X7 X0-X1"/>
+    <trip id="86" depart="473.00" from="O4-X4" to="X0-O2" via="L2-X0 X6-X7 X5-X7"/>
+    <trip id="87" depart="478.50" from="O2-X0" to="X4-O4" via="T6-T3 L1-T0 L1-T2"/>
+    <trip id="88" depart="484.00" from="O5-X5" to="X5-O5" via="L1-T0 X7-X5 X2-T0"/>
+    <trip id="89" depart="489.50" from="O3-X4" to="X4-O3" via="T6-T4 L2-X0 X2-X1"/>
+    <trip id="90" depart="495.00" from="O7-X6" to="X4-O4" via="T4-T6 X2-T4 X3-X1"/>
+    <trip id="91" depart="500.50" from="O5-X5" to="X7-O8" via="X4-T5 X0-L2 X0-L2"/>
+    <trip id="92" depart="506.00" from="O6-X6" to="X4-O4" via="T0-L1 X1-X0 X3-T4"/>
+    <trip id="93" depart="511.50" from="O4-X4" to="X5-O5" via="T5-X4 X7-T6 T1-X1"/>
+    <trip id="94" depart="517.00" from="O2-X0" to="X7-O8" via="X2-T2 T0-X2 T6-T4"/>
+    <trip id="95" depart="522.50" from="O6-X6" to="X4-O3" via="X2-T4 T6-T3 T0-T1"/>
+    <trip id="96" depart="528.00" from="O7-X6" to="X4-O4" via="T6-T3 X0-T5 X2-X1"/>
+    <trip id="97" depart="533.50" from="O6-X6" to="X4-O4" via="T1-L2 X7-X6 X0-L2"/>
+    <trip id="98" depart="539.00" from="O4-X4" to="X6-O7" via="X1-X2 T2-L1 X2-X1"/>
+    <trip id="99" depart="544.50" from="O8-X7" to="X4-O3" via="X1-X3 T1-T0 T2-L1"/>
+    <trip id="100" depart="550.00" from="O2-X0" to="X7-O8" via="T3-T2 X2-T2 X3-T4"/>
+    <trip id="101" depart="555.50" from="O5-X5" to="X0-O2" via="X2-T4 T0-T1 X4-T5"/>
+    <trip id="102" depart="561.00" from="O6-X6" to="X6-O6" via="T0-T1 T4-X3 T5-X0"/>
+    <trip id="103" depart="566.50" from="O7-X6" to="X0-O2" via="X1-X0 T5-X0 X6-T3"/>
+    <trip id="104" depart="572.00" from="O7-X6" to="X6-O6" via="X5-X4 X5-X7 X0-L2"/>
+    <trip id="105" depart="577.50" from="O5-X5" to="X5-O5" via="X1-T1 T6-T4 X2-T2"/>
+    <trip id="106" depart="583.00" from="O5-X5" to="X4-O3" via="X4-T5 X2-X1 X5-X7"/>
+    <trip id="107" depart="588.50" from="O6-X6" to="X0-O2" via="X6-X7 T3-T6 X3-T5"/>
+    <trip id="108" depart="594.00" from="O2-X0" to="X6-O7" via="X1-X0 T2-L1 T0-X2"/>
+    <trip id="109" depart="599.50" from="O6-X6" to="X7-O8" via="L1-T0 L1-T2 T2-T3"/>
+    <trip id="110" depart="605.00" from="O5-X5" to="X5-O5" via="X4-X5 T3-T2 T1-T0"/>
+    <trip id="111" depart="610.50" from="O2-X0" to="X0-O2" via="T2-L1 T2-X2 T5-X3"/>
+    <trip id="112" depart="616.00" from="O7-X6" to="X6-O7" via="T2-T3 T4-X2 T0-T1"/>
+    <trip id="113" depart="621.50" from="O3-X4" to="X5-O5" via="T4-T6 T3-X6 X1-X0"/>
+    <trip id="114" depart="627.00" from="O4-X4" to="X6-O6" via="T4-T6 X2-T2 X7-X6"/>
+    <trip id="115" depart="632.50" from="O8-X7" to="X6-O6" via="X2-T4 X5-X7 X1-X3"/>
+    <trip id="116" depart="638.00" from="O6-X6" to="X7-O8" via="T2-T3 T0-X2 T2-T3"/>
+    <trip id="117" depart="643.50" from="O3-X4" to="X6-O7" via="T0-T1 X7-X5 L2-X0"/>
+    <trip id="118" depart="649.00" from="O6-X6" to="X5-O5" via="X2-T2 T0-X2 X1-T1"/>
+    <trip id="119" depart="654.50" from="O7-X6" to="X4-O3" via="X4-T5 L2-X0 T4-T6"/>
+    <trip id="120" depart="660.00" from="O6-X6" to="X0-O2" via="L2-X0 X2-X1 T5-X3"/>
+    <trip id="121" depart="665.50" from="O7-X6" to="X0-O2" via="X6-X7 X2-X1 T5-X3"/>
+    <trip id="122" depart="671.00" from="O3-X4" to="X0-O2" via="T0-X2 T2-X2 T1-T0"/>
+    <trip id="123" depart="676.50" from="O6-X6" to="X5-O5" via="X5-X4 T5-X3 T5-X3"/>
+    <trip id="124" depart="682.00" from="O7-X6" to="X6-O6" via="T6-T3 X4-X5 X7-T6"/>
+    <trip id="125" depart="687.50" from="O4-X4" to="X6-O7" via="T1-X1 T3-X6 T2-L1"/>
+    <trip id="126" depart="693.00" from="O8-X7" to="X4-O4" via="X0-L2 T0-L1 T6-T4"/>
+    <trip id="127" depart="698.50" from="O6-X6" to="X4-O4" via="L1-T2 T3-T2 X0-T5"/>
+    <trip id="128" depart="704.00" from="O2-X0" to="X7-O8" via="X0-X1 T2-T3 T1-T0"/>
+    <trip id="129" depart="709.50" from="O6-X6" to="X5-O5" via="T6-T4 T4-T6 T4-X2"/>
+    <trip id="130" depart="715.00" from="O3-X4" to="X6-O7" via="X1-X3 X2-T0 T6-T3"/>
+    <trip id="131" depart="720.50" from="O4-X4" to="X4-O3" via="T2-X2 X5-X4 X6-T3"/>
+    <trip id="132" depart="726.00" from="O7-X6" to="X4-O3" via="X7-X6 T1-T0 X6-X7"/>
+    <trip id="133" depart="731.50" from="O8-X7" to="X6-O7" via="X2-X1 X0-L2 T6-T3"/>
+    <trip id="134" depart="737.00" from="O3-X4" to="X4-O4" via="X0-X1 T5-X4 T4-X2"/>
+    <trip id="135" depart="742.50" from="O6-X6" to="X6-O7" via="X7-T6 X5-X7 X3-X1"/>
+    <trip id="136" depart="748.00" from="O7-X6" to="X7-O8" via="X1-X0 X4-T5 T1-X1"/>
+    <trip id="137" depart="753.50" from="O4-X4" to="X5-O5" via="T0-X2 T1-X1 T1-X1"/>
+    <trip id="138" depart="759.00" from="O2-X0" to="X5-O5" via="T5-X3 X1-T1 X5-X3"/>
+    <trip id="139" depart="764.50" from="O4-X4" to="X5-O5" via="T1-T0 T2-X2 X2-T4"/>
+    <trip id="140" depart="770.00" from="O6-X6" to="X4-O3" via="X4-T5 L1-T0 T0-T1"/>
+    <trip id="141" depart="775.50" from="O8-X7" to="X7-O8" via="X1-X3 X1-X0 X7-X6"/>
+    <trip id="142" depart="781.00" from="O2-X0" to="X5-O5" via="X1-X2 X4-T5 X2-T4"/>
+    <trip id="143" depart="786.50" from="O7-X6" to="X7-O8" via="T1-L2 T6-X7 T6-X7"/>
+    <trip id="144" depart="792.00" from="O3-X4" to="X6-O6" via="X1-X2 X7-X5 X3-X1"/>
+    <trip id="145" depart="797.50" from="O6-X6" to="X4-O4" via="X1-T1 X3-T4 L1-T0"/>
+    <trip id="146" depart="803.00" from="O8-X7" to="X4-O3" via="X0-L2 X0-X1 X0-T5"/>
+    <trip id="147" depart="808.50" from="O5-X5" to="X4-O4" via="X3-X1 X1-X2 X7-T6"/>
+    <trip id="148" depart="814.00" from="O6-X6" to="X4-O3" via="L1-T0 X7-X6 X2-T4"/>
+    <trip id="149" depart="819.50" from="O5-X5" to="X6-O7" via="T4-X2 X1-X2 T4-X3"/>
+    <trip id="150" depart="825.00" from="O6-X6" to="X4-O4" via="X2-T2 X7-X5 X6-T3"/>
+    <trip id="151" depart="830.50" from="O4-X4" to="X4-O3" via="T1-L2 T2-L1 T0-X2"/>
+    <trip id="152" depart="836.00" from="O2-X0" to="X5-O5" via="X2-T2 X7-T6 X5-X4"/>
+    <trip id="153" depart="841.50" from="O5-X5" to="X7-O8" via="X2-T4 T2-T3 L2-T1"/>
+    <trip id="154" depart="847.00" from="O7-X6" to="X0-O2" via="T2-T3 X4-T5 X2-T4"/>
+    <trip id="155" depart="852.50" from="O4-X4" to="X5-O5" via="T1-T0 X3-X5 X5-X4"/>
+    <trip id="156" depart="858.00" from="O4-X4" to="X6-O6" via="X0-L2 T2-L1 T2-T3"/>
+    <trip id="157" depart="863.50" from="O3-X4" to="X5-O5" via="X1-T1 X7-X6 X3-X5"/>
+    <trip id="158" depart="869.00" from="O4-X4" to="X4-O4" via="T5-X3 T1-X1 T5-X4"/>
+    <trip id="159" depart="874.50" from="O4-X4" to="X4-O4" via="T3-T2 T2-T3 T4-T6"/>
+    <trip id="160" depart="880.00" from="O7-X6" to="X4-O3" via="T3-T2 X5-X4 X2-T0"/>
+    <trip id="161" depart="885.50" from="O4-X4" to="X5-O5" via="T4-T6 T6-T4 T2-X2"/>
+    <trip id="162" depart="891.00" from="O6-X6" to="X0-O2" via="X3-X5 T3-T2 X2-T4"/>
+    <trip id="163" depart="896.50" from="O7-X6" to="X5-O5" via="X1-X2 T6-X7 X2-T2"/>
+    <trip id="164" depart="902.00" from="O5-X5" to="X5-O5" via="X7-X5 T1-T0 X3-X1"/>
+    <trip id="165" depart="907.50" from="O8-X7" to="X0-O2" via="T5-X4 L2-T1 X1-T1"/>
+    <trip id="166" depart="913.00" from="O3-X4" to="X5-O5" via="T6-X7 T6-X7 X6-X7"/>
+    <trip id="167" depart="918.50" from="O7-X6" to="X6-O7" via="T1-L2 X6-X7 T2-X2"/>
+    <trip id="168" depart="924.00" from="O6-X6" to="X6-O6" via="T2-L1 X7-T6 T6-T3"/>
+    <trip id="169" depart="929.50" from="O6-X6" to="X5-O5" via="X7-X6 T4-X2 T1-X1"/>
+    <trip id="170" depart="935.00" from="O5-X5" to="X4-O3" via="T4-T6 L1-T2 X0-T5"/>
+    <trip id="171" depart="940.50" from="O5-X5" to="X0-O2" via="T1-L2 T2-L1 X2-T2"/>
+    <trip id="172" depart="946.00" from="O4-X4" to="X4-O3" via="T6-X7 T5-X4 X2-T2"/>
+    <trip id="173" depart="951.50" from="O2-X0" to="X4-O3" via="X0-X1 T3-T2 T5-X0"/>
+    <trip id="174" depart="957.00" from="X1-T1" to="X0-O2" via="X2-T2 X1-X0 X1-X2"/>
+    <trip id="175" depart="962.50" from="O5-X5" to="X6-O6" via="X0-T5 T4-X2 X2-X1"/>
+    <trip id="176" depart="968.00" from="O7-X6" to="X6-O6" via="T6-T3 T1-X1 T1-X1"/>
+    <trip id="177" depart="973.50" from="O8-X7" to="X5-O5" via="X3-X1 X1-X3 X0-L2"/>
+    <trip id="178" depart="979.00" from="O2-X0" to="X5-O5" via="T4-T6 X3-T5 X7-X5"/>
+    <trip id="179" depart="984.50" from="O3-X4" to="X4-O4" via="T6-T3 T3-T2 X2-T4"/>
+    <trip id="180" depart="990.00" from="O2-X0" to="X6-O7" via="L2-T1 L1-T2 T4-X2"/>
+    <trip id="181" depart="995.50" from="O4-X4" to="X4-O3" via="L2-T1 T6-X7 T6-X7"/>
+    <trip id="182" depart="1001.00" from="O8-X7" to="X6-O6" via="T4-X2 X6-X7 T2-X2"/>
+    <trip id="183" depart="1006.50" from="O2-X0" to="X7-O8" via="T2-X2 T3-T6 T3-T2"/>
+    <trip id="184" depart="1012.00" from="O4-X4" to="X6-O7" via="T4-T6 X3-X5 X6-X7"/>
+    <trip id="185" depart="1017.50" from="O8-X7" to="X5-O5" via="X0-T5 T0-T1 T5-X0"/>
+    <trip id="186" depart="1023.00" from="O2-X0" to="X7-O8" via="X1-X0 T5-X3 X6-T3"/>
+    <trip id="187" depart="1028.50" from="O4-X4" to="X4-O3" via="X1-X0 L2-T1 T1-X1"/>
+    <trip id="188" depart="1034.00" from="O4-X4" to="X7-O8" via="X1-T1 X6-X7 T0-T1"/>
+    <trip id="189" depart="1039.50" from="O2-X0" to="X6-O6" via="T3-T6 T4-T6 T6-X7"/>
+    <trip id="190" depart="1045.00" from="O5-X5" to="X7-O8" via="X3-T4 T6-X7 T2-T3"/>
+    <trip id="191" depart="1050.50" from="O5-X5" to="X7-O8" via="X7-X5 T1-T0 T0-L1"/>
+    <trip id="192" depart="1056.00" from="O2-X0" to="X5-O5" via="X0-T5 X3-X5 X0-T5"/>
+    <trip id="193" depart="1061.50" from="O6-X6" to="X4-O3" via="T4-X2 X2-X1 X2-T2"/>
+    <trip id="194" depart="1067.00" from="O5-X5" to="X4-O3" via="T6-T3 X0-X1 T5-X0"/>
+    <trip id="195" depart="1072.50" from="O8-X7" to="X0-O2" via="X3-T5 X6-T3 T2-X2"/>
+    <trip id="196" depart="1078.00" from="O3-X4" to="X7-O8" via="T1-X1 T3-T2 X2-X1"/>
+    <trip id="197" depart="1083.50" from="O8-X7" to="X7-O8" via="X1-X3 T3-T2 L1-T2"/>
+    <trip id="198" depart="1089.00" from="O6-X6" to="X0-O2" via="X2-T4 X0-X1 X3-T5"/>
+    <trip id="199" depart="1094.50" from="O4-X4" to="X6-O7" via="X3-X1 T0-T1 T2-X2"/>
+    <trip id="200" depart="1100.00" from="O8-X7" to="X6-O7" via="X3-X1 X1-X2 X7-X6"/>
+    <trip id="201" depart="1105.50" from="O2-X0" to="X4-O3" via="T0-X2 T2-X2 T5-X4"/>
+    <trip id="202" depart="1111.00" from="O8-X7" to="X7-O8" via="X6-X7 T2-T3 X7-T6"/>
+    <trip id="203" depart="1116.50" from="O3-X4" to="X7-O8" via="T0-X2 X3-T5 X5-X3"/>
+    <trip id="204" depart="1122.00" from="O8-X7" to="X7-O8" via="X5-X4 T0-T1 X3-X1"/>
+    <trip id="205" depart="1127.50" from="O8-X7" to="X4-O3" via="X7-X6 L2-X0 X1-X0"/>
+    <trip id="206" depart="1133.00" from="O6-X6" to="X6-O7" via="L2-X0 T2-T3 X4-X5"/>
+    <trip id="207" depart="1138.50" from="O3-X4" to="X7-O8" via="X3-T4 X2-T4 X5-X7"/>
+    <trip id="208" depart="1144.00" from="O5-X5" to="X6-O6" via="T1-X1 T3-T6 T3-X6"/>
+    <trip id="209" depart="1149.50" from="O5-X5" to="X6-O7" via="X1-X0 T0-L1 X2-T0"/>
+    <trip id="210" depart="1155.00" from="O6-X6" to="X5-O5" via="X5-X3 X5-X3 X2-X1"/>
+    <trip id="211" depart="1160.50" from="O4-X4" to="X4-O3" via="X5-X7 T6-X7 X0-X1"/>
+    <trip id="212" depart="1166.00" from="O4-X4" to="X4-O3" via="T2-T3 X3-T4 X2-T4"/>
+    <trip id="213" depart="1171.50" from="O3-X4" to="X6-O6" via="T6-T4 T1-X1 L2-X0"/>
+    <trip id="214" depart="1177.00" from="O8-X7" to="X6-O6" via="X1-X2 T4-X3 T3-T2"/>
+    <trip id="215" depart="1182.50" from="O5-X5" to="X4-O3" via="X7-T6 X5-X4 X6-T3"/>
+    <trip id="216" depart="1188.00" from="O2-X0" to="X6-O7" via="X6-T3 L2-T1 X4-T5"/>
+    <trip id="217" depart="1193.50" from="O4-X4" to="X5-O5" via="T5-X4 X2-T2 T0-L1"/>
+    <trip id="218" depart="1199.00" from="O7-X6" to="X6-O6" via="X7-T6 X0-X1 T2-L1"/>
+    <trip id="219" depart="1204.50" from="O4-X4" to="X7-O8" via="X2-T0 T3-T2 T0-T1"/>
+    <trip id="220" depart="1210.00" from="O4-X4" to="X4-O3" via="T6-X7 X6-T3 X7-T6"/>
+    <trip id="221" depart="1215.50" from="O8-X7" to="X7-O8" via="T4-X2 L1-T2 T3-T6"/>
+    <trip id="222" depart="1221.00" from="O8-X7" to="X0-O2" via="T5-X0 T2-T3 X6-T3"/>
+    <trip id="223" depart="1226.50" from="O3-X4" to="X0-O2" via="T1-X1 T4-X2 T1-X1"/>
+    <trip id="224" depart="1232.00" from="O4-X4" to="X7-O8" via="T4-X3 L2-X0 T0-X2"/>
+    <trip id="225" depart="1237.50" from="O5-X5" to="X6-O6" via="X5-X3 X7-X5 X2-T4"/>
+    <trip id="226" depart="1243.00" from="O6-X6" to="X7-O8" via="X6-T3 T1-X1 X0-T5"/>
+    <trip id="227" depart="1248.50" from="O5-X5" to="X0-O2" via="X7-X6 X0-L2 X2-X1"/>
+    <trip id="228" depart="1254.00" from="O8-X7" to="X4-O4" via="T2-T3 X0-L2 X1-X2"/>
+    <trip id="229" depart="1259.50" from="O4-X4" to="X7-O8" via="T3-X6 X2-T4 T3-T2"/>
+    <trip id="230" depart="1265.00" from="O8-X7" to="X5-O5" via="X7-X6 X5-X3 X7-X5"/>
+    <trip id="231" depart="1270.50" from="O6-X6" to="X5-O5" via="X2-T2 X2-T0 X7-X6"/>
+    <trip id="232" depart="1276.00" from="O2-X0" to="X5-O5" via="T2-L1 T4-X3 T3-T2"/>
+    <trip id="233" depart="1281.50" from="O3-X4" to="X6-O6" via="T1-X1 T5-X3 T1-T0"/>
+    <trip id="234" depart="1287.00" from="O8-X7" to="X4-O3" via="X1-X0 X6-X7 L1-T2"/>
+    <trip id="235" depart="1292.50" from="O4-X4" to="X4-O4" via="X5-X4 T5-X0 X6-T3"/>
+    <trip id="236" depart="1298.00" from="O5-X5" to="X5-O5" via="X3-X5 T4-X2 X6-T3"/>
+    <trip id="237" depart="1303.50" from="O5-X5" to="X5-O5" via="T2-X2 T0-L1 X7-X5"/>
+    <trip id="238" depart="1309.00" from="O7-X6" to="X4-O4" via="T4-X3 X4-T5 X2-X1"/>
+    <trip id="239" depart="1314.50" from="O8-X7" to="X0-O2" via="X1-X2 X7-T6 X0-X1"/>
+    <trip id="240" depart="1320.00" from="O5-X5" to="X6-O7" via="T2-L1 X4-X5 X4-T5"/>
+    <trip id="241" depart="1325.50" from="O6-X6" to="X7-O8" via="X4-T5 X2-T2 X3-X1"/>
+    <trip id="242" depart="1331.00" from="O8-X7" to="X6-O6" via="X1-X2 T3-X6 L2-X0"/>
+    <trip id="243" depart="1336.50" from="O6-X6" to="X0-O2" via="L1-T0 T5-X0 T6-X7"/>
+    <trip id="244" depart="1342.00" from="O5-X5" to="X6-O6" via="T3-X6 T5-X3 T6-T4"/>
+    <trip id="245" depart="1347.50" from="O4-X4" to="X0-O2" via="T2-T3 X7-X5 T5-X0"/>
+    <trip id="246" depart="1353.00" from="O7-X6" to="X6-O7" via="T2-L1 T5-X4 X0-X1"/>
+    <trip id="247" depart="1358.50" from="O6-X6" to="X4-O4" via="T4-X3 X7-T6 X6-T3"/>
+    <trip id="248" depart="1364.00" from="O2-X0" to="X4-O3" via="X1-X0 T1-L2 X7-X5"/>
+    <trip id="249" depart="1369.50" from="O4-X4" to="X0-O2" via="T6-X7 T4-X3 T3-X6"/>
+    <trip id="250" depart="1375.00" from="O6-X6" to="X5-O5" via="T0-X2 T6-X7 T3-X6"/>
+    <trip id="251" depart="1380.50" from="O5-X5" to="X6-O7" via="T1-T0 X3-X5 X2-T4"/>
+    <trip id="252" depart="1386.00" from="O2-X0" to="X6-O7" via="T4-X2 T3-T6 X5-X7"/>
+    <trip id="253" depart="1391.50" from="O8-X7" to="X6-O6" via="X5-X3 L1-T0 X3-X5"/>
+    <trip id="254" depart="1397.00" from="O8-X7" to="X7-O8" via="L1-T2 X2-T0 T3-T6"/>
+    <trip id="255" depart="1402.50" from="O4-X4" to="X0-O2" via="X0-L2 L2-T1 X2-T2"/>
+    <trip id="256" depart="1408.00" from="O3-X4" to="X6-O7" via="X1-X0 T0-T1 T5-X0"/>
+    <trip id="257" depart="1413.50" from="O7-X6" to="X4-O3" via="T3-T2 L2-X0 T2-L1"/>
+    <trip id="258" depart="1419.00" from="O7-X6" to="X7-O8" via="X2-T0 T2-T3 X0-T5"/>
+    <trip id="259" depart="1424.50" from="O6-X6" to="X5-O5" via="X7-X5 T5-X0 X6-T3"/>
+    <trip id="260" depart="1430.00" from="O7-X6" to="X4-O3" via="T5-X4 T2-T3 T0-X2"/>
+    <trip id="261" depart="1435.50" from="O4-X4" to="X4-O4" via="T3-T6 T2-X2 X3-X1"/>
+    <trip id="262" depart="1441.00" from="O5-X5" to="X0-O2" via="T4-T6 X0-L2 X6-X7"/>
+    <trip id="263" depart="1446.50" from="O4-X4" to="X4-O4" via="L2-X0 X7-X6 T0-L1"/>
+    <trip id="264" depart="1452.00" from="O2-X0" to="X4-O3" via="X2-T4 T5-X3 T1-X1"/>
+    <trip id="265" depart="1457.50" from="O8-X7" to="X4-O3" via="X4-X5 X1-T1 X1-X3"/>
+    <trip id="266" depart="1463.00" from="O7-X6" to="X6-O6" via="T3-X6 T5-X4 X1-X2"/>
+    <trip id="267" depart="1468.50" from="O6-X6" to="X6-O6" via="X2-T0 T0-T1 T0-L1"/>
+    <trip id="268" depart="1474.00" from="O8-X7" to="X7-O8" via="X0-T5 X3-X5 T2-L1"/>
+    <trip id="269" depart="1479.50" from="O3-X4" to="X4-O4" via="L1-T2 L1-T2 L1-T2"/>
+    <trip id="270" depart="1485.00" from="O8-X7" to="T5-X4" via="X5-X4 T5-X3 T2-L1"/>
+    <trip id="271" depart="1490.50" from="O5-X5" to="X6-O6" via="X6-X7 T3-T6 T2-T3"/>
+    <trip id="272" depart="1496.00" from="O3-X4" to="X0-O2" via="T2-X2 T3-T2 L1-T0"/>
+    <trip id="273" depart="1501.50" from="O5-X5" to="X4-O4" via="T4-X2 T5-X4 L1-T0"/>
+    <trip id="274" depart="1507.00" from="O5-X5" to="X6-O7" via="X3-X1 T3-T6 X5-X4"/>
+    <trip id="275" depart="1512.50" from="O8-X7" to="X6-O7" via="X5-X4 X0-L2 T1-L2"/>
+    <trip id="276" depart="1518.00" from="O8-X7" to="X6-O7" via="T0-T1 T0-T1 T1-L2"/>
+    <trip id="277" depart="1523.50" from="O5-X5" to="X4-O4" via="T2-X2 T2-T3 X3-X5"/>
+    <trip id="278" depart="1529.00" from="O8-X7" to="X0-O2" via="T3-X6 X2-T0 X1-X3"/>
+    <trip id="279" depart="1534.50" from="O4-X4" to="X4-O4" via="X0-T5 X5-X3 T1-T0"/>
+    <trip id="280" depart="1540.00" from="O2-X0" to="X5-O5" via="X7-X5 T0-L1 X1-X0"/>
+    <trip id="281" depart="1545.50" from="O2-X0" to="X5-O5" via="X3-X5 X1-X0 X6-T3"/>
+    <trip id="282" depart="1551.00" from="O8-X7" to="X4-O4" via="T3-T2 T0-L1 X3-X1"/>
+    <trip id="283" depart="1556.50" from="O6-X6" to="X6-O7" via="X1-T1 T4-X2 T2-L1"/>
+    <trip id="284" depart="1562.00" from="O8-X7" to="X5-O5" via="T2-T3 T3-T6 X7-T6"/>
+    <trip id="285" depart="1567.50" from="O5-X5" to="X7-O8" via="T6-T4 T6-X7 X2-T2"/>
+    <trip id="286" depart="1573.00" from="O6-X6" to="X6-O6" via="X7-X5 X4-T5 X1-T1"/>
+    <trip id="287" depart="1578.50" from="T4-T6" to="X6-O7" via="X2-X1 X2-X1 T3-T6"/>
+    <trip id="288" depart="1584.00" from="O6-X6" to="X7-O8" via="T6-T3 X1-X3 X2-T0"/>
+    <trip id="289" depart="1589.50" from="O4-X4" to="X5-O5" via="X4-X5 X0-L2 T6-T4"/>
+    <trip id="290" depart="1595.00" from="O2-X0" to="X4-O3" via="X5-X7 T4-X2 X6-X7"/>
+    <trip id="291" depart="1600.50" from="O3-X4" to="X7-O8" via="X4-T5 L2-X0 T5-X3"/>
+    <trip id="292" depart="1606.00" from="O8-X7" to="X4-O4" via="X1-X2 T5-X3 X5-X7"/>
+    <trip id="293" depart="1611.50" from="O2-X0" to="X5-O5" via="X4-X5 T1-X1 X5-X3"/>
+    <trip id="294" depart="1617.00" from="O5-X5" to="X6-O6" via="T0-T1 X2-T4 X0-T5"/>
+    <trip id="295" depart="1622.50" from="O6-X6" to="X0-O2" via="X7-T6 X3-T4 L1-T2"/>
+    <trip id="296" depart="1628.00" from="O4-X4" to="X6-O6" via="X2-T4 X6-X7 T4-T6"/>
+    <trip id="297" depart="1633.50" from="O6-X6" to="X4-O4" via="X1-X0 L1-T2 T3-X6"/>
+    <trip id="298" depart="1639.00" from="O4-X4" to="X7-O8" via="T2-L1 T2-T3 X0-L2"/>
+    <trip id="299" depart="1644.50" from="O4-X4" to="X4-O4" via="X5-X3 X3-X5 L2-X0"/>
+    <trip id="300" depart="1650.00" from="O4-X4" to="X4-O3" via="X6-T3 T3-T6 T6-X7"/>
+    <trip id="301" depart="1655.50" from="O6-X6" to="X4-O3" via="X6-X7 X0-T5 T2-T3"/>
+    <trip id="302" depart="1661.00" from="O5-X5" to="X6-O7" via="T3-X6 X6-T3 T5-X0"/>
+    <trip id="303" depart="1666.50" from="O5-X5" to="X5-O5" via="T1-T0 T3-T2 T3-T6"/>
+    <trip id="304" depart="1672.00" from="O4-X4" to="X4-O4" via="X7-X5 T1-X1 X7-X6"/>
+    <trip id="305" depart="1677.50" from="O2-X0" to="X4-O3" via="T5-X0 T0-T1 X7-T6"/>
+    <trip id="306" depart="1683.00" from="O4-X4" to="X7-O8" via="T3-T2 T0-L1 X7-X5"/>
+    <trip id="307" depart="1688.50" from="O6-X6" to="X5-O5" via="X7-T6 X1-X2 L2-X0"/>
+    <trip id="308" depart="1694.00" from="O4-X4" to="X0-O2" via="T2-L1 T2-L1 T0-T1"/>
+    <trip id="309" depart="1699.50" from="O4-X4" to="X6-O6" via="T1-X1 X7-X6 X5-X4"/>
+    <trip id="310" depart="1705.00" from="O6-X6" to="X0-O2" via="T5-X4 X3-T4 X0-L2"/>
+    <trip id="311" depart="1710.50" from="O6-X6" to="X4-O4" via="X3-T5 T3-T2 T5-X0"/>
+    <trip id="312" depart="1716.00" from="O3-X4" to="X0-O2" via="T5-X3 T0-X2 X6-X7"/>
+    <trip id="313" depart="1721.50" from="O2-X0" to="X4-O3" via="L2-X0 X0-T5 T0-T1"/>
+    <trip id="314" depart="1727.00" from="O8-X7" to="X4-O3" via="T6-T3 X0-X1 T3-T2"/>
+    <trip id="315" depart="1732.50" from="O6-X6" to="X7-O8" via="X5-X3 T0-X2 T5-X3"/>
+    <trip id="316" depart="1738.00" from="O6-X6" to="X0-O2" via="X5-X3 X1-X2 T6-T4"/>
+    <trip id="317" depart="1743.50" from="O5-X5" to="X4-O3" via="T3-X6 T5-X3 X0-L2"/>
+    <trip id="318" depart="1749.00" from="O2-X0" to="X4-O3" via="T3-T2 T4-X3 T6-X7"/>
+    <trip id="319" depart="1754.50" from="O6-X6" to="X4-O3" via="X3-X1 L2-X0 X0-X1"/>
+    <trip id="320" depart="1760.00" from="O3-X4" to="X4-O3" via="T3-T6 X5-X4 X5-X4"/>
+    <trip id="321" depart="1765.50" from="O6-X6" to="X4-O3" via="T0-L1 X1-X0 X5-X3"/>
+    <trip id="322" depart="1771.00" from="O4-X4" to="X7-O8" via="L1-T0 T0-T1 T4-T6"/>
+    <trip id="323" depart="1776.50" from="O2-X0" to="X5-O5" via="T6-T4 T2-T3 L1-T2"/>
+    <trip id="324" depart="1782.00" from="O2-X0" to="X4-O3" via="T2-T3 X3-T5 X5-X7"/>
+    <trip id="325" depart="1787.50" from="O6-X6" to="X4-O3" via="T2-X2 T3-T2 X6-X7"/>
+    <trip id="326" depart="1793.00" from="O3-X4" to="X7-O8" via="X6-X7 T3-T6 X5-X4"/>
+    <trip id="327" depart="1798.50" from="O4-X4" to="X7-O8" via="X3-T4 X7-X5 T4-X2"/>
+</routes>

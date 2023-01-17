@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+
+<!--l1/>-->
+
+    <connection from="T0-L1" to="L1-T2" fromLane="0" toLane="0" /><!-- L1-右转 />-->
+    <connection from="T0-L1" to="L1-T0" fromLane="1" toLane="1" /><!-- L1-掉头1 />-->
+
+    <connection from="T2-L1" to="L1-T0" fromLane="0" toLane="0" /><!-- L1-左转 />-->
+    <connection from="T2-L1" to="L1-T2" fromLane="1" toLane="1" /><!--  L1-掉头2 />-->
+
+<!--T0/>-->
+    <connection from="L1-T0" to="T0-T1" fromLane="0" toLane="0" /><!-- T0 N-S 直行- />-->
+    <connection from="L1-T0" to="T0-X2" fromLane="1" toLane="1" /><!-- T0 N-W 左传- />-->
+
+    <connection from="T1-T0" to="T0-L1" fromLane="1" toLane="1" /><!-- T0 S-N 直行- />-->
+    <connection from="T1-T0" to="T0-X2" fromLane="0" toLane="0" /><!-- T0 S-W 左传- />-->
+
+    <connection from="X2-T0" to="T0-L1" fromLane="0" toLane="0" /><!-- T0 W-N 右传- />-->
+    <connection from="X2-T0" to="T0-T1" fromLane="1" toLane="1" /><!-- T0 W-S 左传- />-->
+
+<!--T1/>-->
+
+    <connection from="T0-T1" to="T1-X1" fromLane="1" toLane="1" /><!-- T1-左转 />-->
+    <connection from="T0-T1" to="T1-L2" fromLane="0" toLane="0" /><!-- T1-直行1 />-->
+
+    <connection from="X1-T1" to="T1-T0" fromLane="0" toLane="0" /><!-- T1-右转 />-->
+    <connection from="X1-T1" to="T1-L2" fromLane="1" toLane="1" /><!--  T1-左转 />-->
+
+  <connection from="L2-T1" to="T1-X1" fromLane="0" toLane="0" /><!-- T1-右转 />-->
+    <connection from="L2-T1" to="T1-T0" fromLane="1" toLane="1" /><!--  T1-直行 />-->
+
+<!--l2/>-->
+
+    <connection from="X0-L2" to="L2-T1" fromLane="0" toLane="0" /><!-- L1-右转 />-->
+    <connection from="X0-L2" to="L2-X0" fromLane="1" toLane="1" /><!-- L1-掉头1 />-->
+
+    <connection from="T1-L2" to="L2-X0" fromLane="0" toLane="0" /><!-- L1-左转 />-->
+    <connection from="T1-L2" to="L2-T1" fromLane="1" toLane="1" /><!--  L1-掉头2 />-->
+<!--X1/>-->
+
+    <connection from="T1-X1" to="X1-X3" fromLane="0" toLane="0" /><!-- X1 E-W 直行- />-->
+    <connection from="T1-X1" to="X1-X0" fromLane="0" toLane="0" /><!-- X1 E-S 右转- />-->
+    <connection from="T1-X1" to="X1-X2" fromLane="1" toLane="1" /><!-- X1 E-S 左转- />-->
+
+    <connection from="X0-X1" to="X1-X2" fromLane="0" toLane="0" /><!-- X1 S-N 直行- />-->
+    <connection from="X0-X1" to="X1-X3" fromLane="0" toLane="0" /><!-- X1 S-W 右转- />-->
+    <connection from="X0-X1" to="X1-T1" fromLane="1" toLane="1" /><!-- X1 S-E 左转- />-->
+
+    <connection from="X3-X1" to="X1-T1" fromLane="0" toLane="0" /><!-- X1 W-E 直行- />-->
+    <connection from="X3-X1" to="X1-X2" fromLane="0" toLane="0" /><!-- X1 W-N 右转- />-->
+    <connection from="X3-X1" to="X1-X0" fromLane="1" toLane="1" /><!-- X1 W-S 左转- />-->
+
+    <connection from="X2-X1" to="X1-X0" fromLane="0" toLane="0" /><!-- X1 N-S 直行- />-->
+    <connection from="X2-X1" to="X1-T1" fromLane="0" toLane="0" /><!-- X1 N-E 右转- />-->
+    <connection from="X2-X1" to="X1-X3" fromLane="1" toLane="1" /><!-- X1 N-W 左转- />-->
+
+<!--X2/>-->
+    <connection from="T0-X2" to="X2-T4" fromLane="0" toLane="0" /><!-- X1 E-W 直行- />-->
+    <connection from="T0-X2" to="X2-X1" fromLane="0" toLane="0" /><!-- X1 E-S 右转- />-->
+    <connection from="T0-X2" to="X2-T2" fromLane="1" toLane="1" /><!-- X1 E-S 左转- />-->
+
+    <connection from="X1-X2" to="X2-T2" fromLane="0" toLane="0" /><!-- X1 S-N 直行- />-->
+    <connection from="X1-X2" to="X2-T4" fromLane="0" toLane="0" /><!-- X1 S-W 右转- />-->
+    <connection from="X1-X2" to="X2-T0" fromLane="1" toLane="1" /><!-- X1 S-E 左转- />-->
+
+
+    <connection from="T4-X2" to="X2-T0" fromLane="0" toLane="0" /><!-- X1 W-E 直行- />-->
+    <connection from="T4-X2" to="X2-T2" fromLane="0" toLane="0" /><!-- X1 W-N 右转- />-->
+    <connection from="T4-X2" to="X2-X1" fromLane="1" toLane="1" /><!-- X1 W-S 左转- />-->
+
+    <connection from="T2-X2" to="X2-X1" fromLane="0" toLane="0" /><!-- X1 N-S 直行- />-->
+    <connection from="T2-X2" to="X2-T0" fromLane="0" toLane="0" /><!-- X1 N-E 右转- />-->
+    <connection from="T2-X2" to="X2-T4" fromLane="1" toLane="1" /><!-- X1 N-W 左转- />-->
+
+
+
+
+<!--T2/>-->
+    <connection from="L1-T2" to="T2-T3" fromLane="1" toLane="1" /><!-- T2 直行- />-->
+    <connection from="L1-T2" to="T2-X2" fromLane="0" toLane="0" /><!-- T2 右转- />-->
+
+    <connection from="T3-T2" to="T2-L1" fromLane="0" toLane="0" /><!-- T2直行- />-->
+    <connection from="T3-T2" to="T2-X2" fromLane="1" toLane="1" /><!-- T2左传- />-->
+
+    <connection from="X2-T2" to="T2-T3" fromLane="0" toLane="0" /><!-- T2 S-E 右传- />-->
+    <connection from="X2-T2" to="T2-L1" fromLane="1" toLane="1" /><!-- T2 S-W 左传- />-->
+
+
+<!--X0/>-->
+<connection from="L2-X0" to="X0-T5" fromLane="0" toLane="0" /><!-- X0 E-W 直行- />-->
+    <connection from="L2-X0" to="X0-O2" fromLane="0" toLane="0" /><!-- X0 E-S 右转- />-->
+    <connection from="L2-X0" to="X0-X1" fromLane="1" toLane="1" /><!-- X0 E-S 左转- />-->
+
+    <connection from="O2-X0" to="X0-X1" fromLane="0" toLane="0" /><!-- X0 S-N 直行- />-->
+    <connection from="O2-X0" to="X0-T5" fromLane="0" toLane="0" /><!-- X0 S-W 右转- />-->
+    <connection from="O2-X0" to="X0-L2" fromLane="1" toLane="1" /><!-- X0 S-E 左转- />-->
+
+
+    <connection from="T5-X0" to="X0-L2" fromLane="0" toLane="0" /><!-- X0 W-E 直行- />-->
+    <connection from="T5-X0" to="X0-X1" fromLane="0" toLane="0" /><!-- X0 W-N 右转- />-->
+    <connection from="T5-X0" to="X0-O2" fromLane="1" toLane="1" /><!-- X0 W-S 左转- />-->
+
+    <connection from="X1-X0" to="X0-O2" fromLane="0" toLane="0" /><!-- X0 N-S 直行- />-->
+    <connection from="X1-X0" to="X0-L2" fromLane="0" toLane="0" /><!-- X0 N-E 右转- />-->
+    <connection from="X1-X0" to="X0-T5" fromLane="1" toLane="1" /><!-- X0 N-W 左转- />-->
+
+
+
+
+<!--T3/>-->
+    <connection from="T2-T3" to="T3-X6" fromLane="1" toLane="1" /><!-- T3 直行- />-->
+    <connection from="T2-T3" to="T3-T6" fromLane="0" toLane="0" /><!-- T3 右转- />-->
+
+    <connection from="X6-T3" to="T3-T2" fromLane="0" toLane="0" /><!-- T3直行- />-->
+    <connection from="X6-T3" to="T3-T6" fromLane="1" toLane="1" /><!-- T3左传- />-->
+
+    <connection from="T6-T3" to="T3-X6" fromLane="0" toLane="0" /><!-- T3 S-E 右传- />-->
+    <connection from="T6-T3" to="T3-T2" fromLane="1" toLane="1" /><!-- T3 S-W 左传- />-->
+
+
+<!--T6/>-->
+    <connection from="T4-T6" to="T6-T3" fromLane="1" toLane="1" /><!-- T6 直行- />-->
+    <connection from="T4-T6" to="T6-X7" fromLane="0" toLane="0" /><!-- T6 右转- />-->
+
+    <connection from="T3-T6" to="T6-T4" fromLane="0" toLane="0" /><!-- T3直行- />-->
+    <connection from="T3-T6" to="T6-X7" fromLane="1" toLane="1" /><!-- T3左传- />-->
+
+    <connection from="X7-T6" to="T6-T3" fromLane="0" toLane="0" /><!-- T3 S-E 右传- />-->
+    <connection from="X7-T6" to="T6-T4" fromLane="1" toLane="1" /><!-- T3 S-W 左传- />-->
+
+<!--T4/>-->
+    <connection from="X3-T4" to="T4-T6" fromLane="0" toLane="0" /><!-- T4 N-S 直行- />-->
+    <connection from="X3-T4" to="T4-X2" fromLane="1" toLane="1" /><!-- T4 N-W 左传- />-->
+
+    <connection from="T6-T4" to="T4-X3" fromLane="1" toLane="1" /><!-- T4 S-N 直行- />-->
+    <connection from="T6-T4" to="T4-X2" fromLane="0" toLane="0" /><!-- T4 S-W 右传- />-->
+
+    <connection from="X2-T4" to="T4-X3" fromLane="0" toLane="0" /><!-- T4 W-N 右传- />-->
+    <connection from="X2-T4" to="T4-T6" fromLane="1" toLane="1" /><!-- T4 W-S 左传- />-->
+
+<!--X3/>-->
+    <connection from="X1-X3" to="X3-X5" fromLane="0" toLane="0" /><!-- X1 E-W 直行- />-->
+    <connection from="X1-X3" to="X3-T5" fromLane="0" toLane="0" /><!-- X1 E-S 右转- />-->
+    <connection from="X1-X3" to="X3-T4" fromLane="1" toLane="1" /><!-- X1 E-S 左转- />-->
+
+    <connection from="T5-X3" to="X3-T4" fromLane="0" toLane="0" /><!-- X1 S-N 直行- />-->
+    <connection from="T5-X3" to="X3-X5" fromLane="0" toLane="0" /><!-- X1 S-W 右转- />-->
+    <connection from="T5-X3" to="X3-X1" fromLane="1" toLane="1" /><!-- X1 S-E 左转- />-->
+
+
+    <connection from="X5-X3" to="X3-X1" fromLane="0" toLane="0" /><!-- X1 W-E 直行- />-->
+    <connection from="X5-X3" to="X3-T4" fromLane="0" toLane="0" /><!-- X1 W-N 右转- />-->
+    <connection from="X5-X3" to="X3-T5" fromLane="1" toLane="1" /><!-- X1 W-S 左转- />-->
+
+    <connection from="T4-X3" to="X3-T5" fromLane="0" toLane="0" /><!-- X1 N-S 直行- />-->
+    <connection from="T4-X3" to="X3-X1" fromLane="0" toLane="0" /><!-- X1 N-E 右转- />-->
+    <connection from="T4-X3" to="X3-X5" fromLane="1" toLane="1" /><!-- X1 N-W 左转- />-->
+
+
+<!--T5/>-->
+
+    <connection from="X0-T5" to="T5-X3" fromLane="1" toLane="1" /><!-- T5-左转 />-->
+    <connection from="X0-T5" to="T5-X4" fromLane="0" toLane="0" /><!-- T5-直行 />-->
+
+    <connection from="X3-T5" to="T5-X0" fromLane="0" toLane="0" /><!-- T5-右转 />-->
+    <connection from="X3-T5" to="T5-X4" fromLane="1" toLane="1" /><!--  T5-左转 />-->
+
+    <connection from="X4-T5" to="T5-X0" fromLane="1" toLane="1" /><!-- T5-直行 />-->
+    <connection from="X4-T5" to="T5-X3" fromLane="0" toLane="0" /><!--  T5-右转 />-->
+
+
+
+<!--X6/>-->
+ <connection from="T3-X6" to="X6-O6" fromLane="0" toLane="0" /><!-- X1 E-W 直行- />-->
+    <connection from="T3-X6" to="X6-X7" fromLane="0" toLane="0" /><!-- X1 E-S 右转- />-->
+    <connection from="T3-X6" to="X6-O7" fromLane="1" toLane="1" /><!-- X1 E-S 左转- />-->
+
+    <connection from="O7-X6" to="X6-X7" fromLane="0" toLane="0" /><!-- X1 S-N 直行- />-->
+    <connection from="O7-X6" to="X6-T3" fromLane="0" toLane="0" /><!-- X1 S-W 右转- />-->
+    <connection from="O7-X6" to="X6-O6" fromLane="1" toLane="1" /><!-- X1 S-E 左转- />-->
+
+
+    <connection from="O6-X6" to="X6-T3" fromLane="0" toLane="0" /><!-- X1 W-E 直行- />-->
+    <connection from="O6-X6" to="X6-O7" fromLane="0" toLane="0" /><!-- X1 W-N 右转- />-->
+    <connection from="O6-X6" to="X6-X7" fromLane="1" toLane="1" /><!-- X1 W-S 左转- />-->
+
+    <connection from="X7-X6" to="X6-O7" fromLane="0" toLane="0" /><!-- X1 N-S 直行- />-->
+    <connection from="X7-X6" to="X6-O6" fromLane="0" toLane="0" /><!-- X1 N-E 右转- />-->
+    <connection from="X7-X6" to="X6-T3" fromLane="1" toLane="1" /><!-- X1 N-W 左转- />-->
+
+<!--X7/>-->
+ <connection from="T6-X7" to="X7-O8" fromLane="0" toLane="0" /><!-- X1 E-W 直行- />-->
+    <connection from="T6-X7" to="X7-X5" fromLane="0" toLane="0" /><!-- X1 E-S 右转- />-->
+    <connection from="T6-X7" to="X7-X6" fromLane="1" toLane="1" /><!-- X1 E-S 左转- />-->
+
+    <connection from="X6-X7" to="X7-X5" fromLane="0" toLane="0" /><!-- X1 S-N 直行- />-->
+    <connection from="X6-X7" to="X7-T6" fromLane="0" toLane="0" /><!-- X1 S-W 右转- />-->
+    <connection from="X6-X7" to="X7-O8" fromLane="1" toLane="1" /><!-- X1 S-E 左转- />-->
+
+
+    <connection from="O8-X7" to="X7-T6" fromLane="0" toLane="0" /><!-- X1 W-E 直行- />-->
+    <connection from="O8-X7" to="X7-X6" fromLane="0" toLane="0" /><!-- X1 W-N 右转- />-->
+    <connection from="O8-X7" to="X7-X5" fromLane="1" toLane="1" /><!-- X1 W-S 左转- />-->
+
+    <connection from="X5-X7" to="X7-X6" fromLane="0" toLane="0" /><!-- X1 N-S 直行- />-->
+
+    <connection from="X5-X7" to="X7-O8" fromLane="0" toLane="0" /><!-- X1 N-E 右转- />-->
+    <connection from="X5-X7" to="X7-T6" fromLane="1" toLane="1" /><!-- X1 N-W 左转- />-->
+
+
+<!--X5/>-->
+ <connection from="X3-X5" to="X5-O5" fromLane="0" toLane="0" /><!-- X1 E-W 直行- />-->
+    <connection from="X3-X5" to="X5-X4" fromLane="0" toLane="0" /><!-- X1 E-S 右转- />-->
+    <connection from="X3-X5" to="X5-X7" fromLane="1" toLane="1" /><!-- X1 E-S 左转- />-->
+
+    <connection from="X7-X5" to="X5-X4" fromLane="0" toLane="0" /><!-- X1 S-N 直行- />-->
+    <connection from="X7-X5" to="X5-X3" fromLane="0" toLane="0" /><!-- X1 S-W 右转- />-->
+    <connection from="X7-X5" to="X5-O5" fromLane="1" toLane="1" /><!-- X1 S-E 左转- />-->
+
+
+    <connection from="O5-X5" to="X5-X3" fromLane="0" toLane="0" /><!-- X1 W-E 直行- />-->
+    <connection from="O5-X5" to="X5-X7" fromLane="0" toLane="0" /><!-- X1 W-N 右转- />-->
+    <connection from="O5-X5" to="X5-X4" fromLane="1" toLane="1" /><!-- X1 W-S 左转- />-->
+
+    <connection from="X4-X5" to="X5-X7" fromLane="0" toLane="0" /><!-- X1 N-S 直行- />-->
+    <connection from="X4-X5" to="X5-O5" fromLane="0" toLane="0" /><!-- X1 N-E 右转- />-->
+    <connection from="X4-X5" to="X5-X3" fromLane="1" toLane="1" /><!-- X1 N-W 左转- />-->
+
+
+
+<!--X4/>-->
+    <connection from="T5-X4" to="X4-O4" fromLane="0" toLane="0" /><!-- X1 E-W 直行- />-->
+    <connection from="T5-X4" to="X4-O3" fromLane="0" toLane="0" /><!-- X1 E-S 右转- />-->
+    <connection from="T5-X4" to="X4-X5" fromLane="1" toLane="1" /><!-- X1 E-S 左转- />-->
+
+    <connection from="X5-X4" to="X4-O3" fromLane="0" toLane="0" /><!-- X1 S-N 直行- />-->
+    <connection from="X5-X4" to="X4-T5" fromLane="0" toLane="0" /><!-- X1 S-W 右转- />-->
+    <connection from="X5-X4" to="X4-O4" fromLane="1" toLane="1" /><!-- X1 S-E 左转- />-->
+
+
+    <connection from="O4-X4" to="X4-T5" fromLane="0" toLane="0" /><!-- X1 W-E 直行- />-->
+    <connection from="O4-X4" to="X4-X5" fromLane="0" toLane="0" /><!-- X1 W-N 右转- />-->
+    <connection from="O4-X4" to="X4-O3" fromLane="1" toLane="1" /><!-- X1 W-S 左转- />-->
+
+    <connection from="O3-X4" to="X4-X5" fromLane="0" toLane="0" /><!-- X1 N-S 直行- />-->
+    <connection from="O3-X4" to="X4-O4" fromLane="0" toLane="0" /><!-- X1 N-E 右转- />-->
+    <connection from="O3-X4" to="X4-T5" fromLane="1" toLane="1" /><!-- X1 N-W 左转- />-->
+</connections>

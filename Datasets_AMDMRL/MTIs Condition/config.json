@@ -1,0 +1,13 @@
+
+{
+	"interval": 1.0,
+	"seed": 0,
+	"dir":"./MTIsCondition/",
+	"roadnetFile": "roadnet.json",
+	"flowFile": "flow.json",
+	"rlTrafficLight": true,
+	"laneChange": false,
+	"saveReplay": false,
+	"roadnetLogFile": "replay_roadnet_class_all.json",
+	"replayLogFile": "replay_class_all.txt"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes> 
+
+
+<node id="T0" x="-100.0" y="0.0" type="traffic_light"/> 
+<node id="T1" x="-100.0" y="-50.0" type="traffic_light"/> 
+<node id="L1" x="-100.0" y="100.0" type="traffic_light"/> 
+<node id="L2" x="-100.0" y="-100.0" type="traffic_light"/>
+
+<node id="X0" x="0.0" y="-100.0" type="traffic_light"/>
+<node id="X1" x="0.0" y="-50.0" type="traffic_light"/> 
+<node id="X2" x="0.0" y="0.0" type="traffic_light"/> 
+<node id="T2" x="0.0" y="100.0" type="traffic_light"/>
+<node id="O2" x="0" y="-150.0" type="priority"/> 
+
+<node id="T3" x="50.0" y="100.0" type="traffic_light"/>
+<node id="T4" x="50.0" y="0.0" type="traffic_light"/>
+<node id="T6" x="50.0" y="50.0" type="traffic_light"/>
+<node id="X3" x="50.0" y="-50.0" type="traffic_light"/>
+<node id="T5" x="50.0" y="-100.0" type="traffic_light"/>
+
+<node id="O7" x="100.0" y="150.0" type="priority"/> 
+<node id="X6" x="100.0" y="100.0" type="traffic_light"/>
+<node id="X7" x="100.0" y="50.0" type="traffic_light"/>
+<node id="X5" x="100.0" y="-50.0" type="traffic_light"/>
+<node id="X4" x="100.0" y="-100.0" type="traffic_light"/>
+<node id="O3" x="100.0" y="-150.0" type="priority"/> 
+
+<node id="O4" x="150.0" y="-100.0" type="priority"/>
+<node id="O5" x="150.0" y="-50.0" type="priority"/>
+<node id="O6" x="150.0" y="100.0" type="priority"/>
+<node id="O8" x="150.0" y="50.0" type="priority"/>
+</nodes> 

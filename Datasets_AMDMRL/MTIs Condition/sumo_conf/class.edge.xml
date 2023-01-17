@@ -1,0 +1,109 @@
+<edges>
+
+
+	<!--T0- />-->
+	<edge id="T0-L1" from="T0" to="L1" numLanes="2" width="2" priority= '50'> </edge>
+	<edge id="L1-T0" from="L1" to="T0" numLanes="2" width="2" priority= '50'> </edge>
+
+	<edge id="T0-X2" from="T0" to="X2" numLanes="2" width="2" priority= '50'> </edge>
+	<edge id="X2-T0" from="X2" to="T0" numLanes="2" width="2" priority= '50'> </edge>
+	<edge id="T0-T1" from="T0" to="T1" numLanes="2" width="2" priority= '50'> </edge>
+	<edge id="T1-T0" from="T1" to="T0" numLanes="2" width="2" priority= '50'> </edge>
+
+
+	<!--L1- />-->
+	<edge id="L1-T0" from="L1" to="T0" numLanes="2"  width="2"  priority = '50'> </edge>
+	<edge id="T0-L1" from="T0" to="L1" numLanes="2"  width="2"  priority = '50'> </edge>
+
+	<edge id="L1-T2" from="L1" to="T2" numLanes="2"  width="2"  priority = '50'> </edge>
+	<edge id="T2-L1" from="T2" to="L1" numLanes="2"  width="2"  priority = '50'> </edge>
+
+	<!--T1- />-->
+	<edge id="T1-X1" from="T1" to="X1" numLanes="2" width="2" priority= '50'> </edge>
+	<edge id="X1-T1" from="X1" to="T1" numLanes="2" width="2" priority= '50'> </edge>
+	 <edge id="L2-T1" from="L2" to="T1" numLanes="2" width="2" priority= '50'> </edge>
+	<edge id="T1-L2" from="T1" to="L2" numLanes="2" width="2" priority= '50'> </edge>	
+
+	<!--L2- />-->
+	<edge id="L2-X0" from="L2" to="X0" numLanes="2" width="2"  priority= '50'> </edge>
+	<edge id="X0-L2" from="X0" to="L2" numLanes="2" width="2" priority= '50' > </edge>
+
+	<!--X0- />-->
+	<edge id="X0-O2" from="X0" to="O2" numLanes="2" width="2" priority= '50'></edge>
+	<edge id="O2-X0" from="O2" to="X0" numLanes="2" width="2" priority= '100'></edge>
+	<edge id="X0-T5" from="X0" to="T5" numLanes="2" width="2" priority= '50'></edge>
+	<edge id="T5-X0" from="T5" to="X0" numLanes="2" width="2" priority= '50'></edge>
+
+	<!--X1- />-->
+	<edge id="X1-X2" from="X1" to="X2" numLanes="2" width="2" priority= '50'></edge>
+	<edge id="X2-X1" from="X2" to="X1" numLanes="2" width="2" priority= '50'></edge>
+	<edge id="X1-X3" from="X1" to="X3" numLanes="2" width="2" priority= '50' > </edge>
+	<edge id="X3-X1" from="X3" to="X1" numLanes="2" width="2" priority= '50' > </edge>
+	<edge id="X1-X0" from="X1" to="X0" numLanes="2" width="2" priority= '50' > </edge>
+	<edge id="X0-X1" from="X0" to="X1" numLanes="2" width="2" priority= '50' > </edge>	
+
+	<!--X2- />-->
+	<edge id="X2-T4" from="X2" to="T4" numLanes="2" width="2" priority= '50'> </edge>
+	<edge id="T4-X2" from="T4" to="X2" numLanes="2" width="2" priority= '50'> </edge>
+	<edge id="X2-T2" from="X2" to="T2" numLanes="2" width="2"  priority= '50'></edge>
+	<edge id="T2-X2" from="T2" to="X2" numLanes="2" width="2"  priority= '50'></edge>
+
+	<!--T2- />-->
+	<edge id="T2-T3" from="T2" to="T3" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="T3-T2" from="T3" to="T2" numLanes="2" width="2"  priority= '50' ></edge>
+
+	<!--T3- />-->
+	<edge id="T3-T6" from="T3" to="T6" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="T6-T3" from="T6" to="T3" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="T3-X6" from="T3" to="X6" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X6-T3" from="X6" to="T3" numLanes="2" width="2"  priority= '50' ></edge>
+
+	<!--T4- />-->
+	<edge id="T4-X3" from="T4" to="X3" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X3-T4" from="X3" to="T4" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="T4-T6" from="T4" to="T6" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="T6-T4" from="T6" to="T4" numLanes="2" width="2"  priority= '50' ></edge>
+	
+	<!--T6- />-->
+	<edge id="T6-X7" from="T6" to="X7" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X7-T6" from="X7" to="T6" numLanes="2" width="2"  priority= '50' ></edge>
+
+	<!--X3- />-->
+	<edge id="X3-T5" from="X3" to="T5" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="T5-X3" from="T5" to="X3" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X3-X5" from="X3" to="X5" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X5-X3" from="X5" to="X3" numLanes="2" width="2"  priority= '50' ></edge>
+
+
+	<!--T5- />-->
+	<edge id="T5-X4" from="T5" to="X4" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X4-T5" from="X4" to="T5" numLanes="2" width="2"  priority= '50' ></edge>
+
+	<!--O7- />-->
+	<edge id="O7-X6" from="O7" to="X6" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X6-O7" from="X6" to="O7" numLanes="2" width="2"  priority= '50' ></edge>
+
+	<!--X6- />-->
+	<edge id="X6-O6" from="X6" to="O6" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="O6-X6" from="O6" to="X6" numLanes="2" width="2"  priority= '100' ></edge>
+	<edge id="X6-X7" from="X6" to="X7" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X7-X6" from="X7" to="X6" numLanes="2" width="2"  priority= '50' ></edge>
+
+	<!--X7- />-->
+	<edge id="X7-X5" from="X7" to="X5" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X5-X7" from="X5" to="X7" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="O8-X7" from="O8" to="X7" numLanes="2" width="2"  priority= '100' ></edge>
+	<edge id="X7-O8" from="X7" to="O8" numLanes="2" width="2"  priority= '50' ></edge>
+
+	<!--X5- />-->
+	<edge id="X5-O5" from="X5" to="O5" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="O5-X5" from="O5" to="X5" numLanes="2" width="2"  priority= '100' ></edge>
+	<edge id="X5-X4" from="X5" to="X4" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="X4-X5" from="X4" to="X5" numLanes="2" width="2"  priority= '50' ></edge>
+
+	<!--X4- />-->
+	<edge id="X4-O4" from="X4" to="O4" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="O4-X4" from="O4" to="X4" numLanes="2" width="2"  priority= '100' ></edge>
+	<edge id="X4-O3" from="X4" to="O3" numLanes="2" width="2"  priority= '50' ></edge>
+	<edge id="O3-X4" from="O3" to="X4" numLanes="2" width="2"  priority= '50' ></edge>
+</edges>
